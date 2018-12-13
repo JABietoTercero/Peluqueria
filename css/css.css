@@ -1,0 +1,173 @@
+body{
+    background: rgb(240, 240, 240);
+  
+  color:black
+}
+.item{
+    background: rgb(240, 240, 240); 
+  
+  }
+
+  
+.row-header{
+    margin:0px auto;
+    padding:0px;
+}
+
+.footer{    
+    margin:0px auto;
+
+    background: black;
+    color:white
+}
+
+.jumbotron {
+    margin:0px auto;
+    background-color:white;
+  
+
+    padding:40px 60px 40px 0px;
+}
+
+address{
+    font-size:80%;
+    margin:0px;
+   
+}
+body{
+    padding:50px 0px 0px 0px;
+    z-index:0;
+}
+
+.navbar{
+    background-color: black;
+  
+   
+}
+.navbar-dark .navbar-nav .nav-link{
+    color:rgb(204, 204, 204);
+}
+
+.carousel{
+ margin-top:3%;
+ margin-bottom:3%;
+ width: 100%;
+ border: solid;
+
+}
+.pagina{
+    margin-bottom:3%;
+}
+
+#titulo{
+    margin-top:2%;
+    margin-bottom:3%;
+}
+#contactar{
+    margin-bottom:3%;
+
+}
+#localizacion{
+    border-top: 1px ridge;
+    padding-bottom: 1%;
+    padding-top:1%; 
+}
+#contacto{
+    margin-bottom:2%;
+}
+#contacto2{
+    padding-top:1%;
+    border-top: 1px ridge;
+}
+#horario2{
+    border-top: 1px ridge;
+    padding-top:1%;
+   
+
+}
+#horario{
+    margin-bottom:5%;
+}
+#container{
+    background: black;
+}
+#mapa{
+  max-width: 100%;
+  border: solid;
+  margin-bottom:3%;
+
+}
+.productos{
+    border: solid;
+}
+img{
+    width: 100%;
+}
+.direccion{
+    position: relative;
+    bottom:37px;
+}
+.direccion2{
+    position: relative;
+    bottom:50px;
+}
+#aboutimg{
+    border:solid
+}
+a{
+    color:black;
+}
+#myModal .modal-footer{
+    display: block;
+  }
+  .modal-body{
+      margin:0 auto;
+  }
+#imagenModal{
+      width:auto;
+      max-width: 100%;
+      max-height: 100%;
+      margin: 0 auto;
+ }
+
+
+@media screen and (max-width: 767px){ 
+    .navbar-toggler{
+        width:40px; 
+        height:33px; 
+        background-color:white
+    }
+    .icon-bar{
+        background-color: black;    display: block;
+        width: 15px;
+        height: 2px;
+        border-radius: 1px;
+    }
+    .icon-bar+.icon-bar { 
+        margin-top: 3px;
+    }
+    .jumbotron {
+        margin:0px auto;
+        padding:40px 25px 40px 0px;
+    }
+    .direccion{
+        position: relative;
+        bottom:0px;
+    }
+    .direccion2{
+        position: relative;
+        bottom:10px;
+    }
+    .modal-header{
+		display:none;
+	}
+	.modal-body{
+		margin:0 auto;
+		padding:0;
+	}
+	.modal-footer{
+		display:none;
+	}
+
+}
+

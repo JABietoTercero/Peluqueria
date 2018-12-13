@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Titulo -->
+    <title>Titulo</title>
+
+    <!-- UTF-8 -->
+    <meta charset="utf-8">
+
+    <!-- Descrición página -->
+    <meta name="description" content="Descripcion.">
+
+    <!-- Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Meta property -->
+    <meta property="og:site_name" content="">
+    <meta property="og:url" content="#">
+    <meta property="og:title" content="titulo">
+    <meta property="og:image" content="#">
+    <meta property="og:description" content="descripcion">
+
+    <!-- Librerias CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/css.css">
+
+
+    <!-- Librerias JS -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/js.js"></script>
+
+
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top ">
+        <div class="container-fluid">
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#Navbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="Navbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active"><a class="nav-link" href="inicio.html">
+                            Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">
+                            Conocenos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="servicios.html">
+                            Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="productos.html">
+                            Productos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="galeria.html">
+                            Galeria</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.html">
+                            Contactanos</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="jumbotron">
+        <div class="container">
+            <div class="row row-header">
+                <div class="col-12">
+                    <img src="img/logo.png" class="img-fluid align-self-center">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Container -->
+
+    <div class="container">
+
+        <!-- Carousel -->
+        <div class="carousel">
+            
+            <!-- Carousel iconos indicators -->
+            <ul class="carousel-indicators d-none d-md-flex">
+                <li id="0" class="icon-item active"></li>
+                <li id="1" class="icon-item"></li>
+                <li id="2" class="icon-item"></li>
+            </ul>
+
+            <!-- Carousel images -->
+            <div class="carousel-inner">
+                <div id="c0" class="carousel-item active">
+                    <img id="carousel1" src="img/carousel1.jpg" alt="Imagen carousel 1">
+                </div>
+                <div id="c1" class="carousel-item">
+                    <img id="carousel2" src="img/carousel3.jpg" alt="Imagen carousel 2" >
+                </div>
+                <div id="c2" class="carousel-item">
+                    <img id="carousel3" src="img/carousel2.jpg" alt="Imagen carousel 3" >
+                </div>
+            </div>
+
+            <!-- Previous and Next buttons -->
+            <div id="prev" class="carousel-control-prev" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </div>
+            <div id="next" class="carousel-control-next" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </div>
+        </div>
+
+        <!-- Contenidos de la web -->
+        <div class="row">
+            <div class="mb-3 col-12 col-lg-3 col-sm-6">
+                <img class="img-responsive imagenes" src="img/conocenos.jpg" alt="imagen">
+            </div>
+            <div class="col-12 col-lg-3 col-sm-6">
+                <h3 class="titulos" > <a href="about.html"> Conocenos </a> </h3>
+
+                <p class="textos text-justify">En Tercero Peluqueros te espera un equipo profesional del
+                    cabello y la estética que te ayudarán a encontrar una imagen armoniosa y saludable.</p>
+
+            </div>
+
+            <div class="mb-3 col-12 col-lg-3 col-sm-6">
+                <img class="img-responsive imagenes" src="img/redken.png" alt="imagen">
+            </div>
+            <div class="col-12 col-lg-3 col-sm-6">
+                <h3 class="titulos" > <a href="productos.html"> Productos </a> </h3>
+
+                <p class="textos text-justify">Utilizamos la marca Redken para darte una buena imagen, además de eso
+                    vendemos estos productos en nuestra peluqueria.</p>
+            </div>
+
+
+
+            <div class="mb-3 col-12 col-lg-3 col-sm-6">
+                <img class="img-responsive imagenes" src="img/galeria.jpg" alt="imagen">
+            </div>
+            <div class="col-12 col-lg-3 col-sm-6">
+                <h3 class="titulos" > <a href="galeria.html"> Galeria </a> </h3>
+
+                <p class="textos text-justify">Podrás ver una gran galeria para
+                    que puedas ver muchos de nuestros antiguos trabajos y poder ver lo que te gustaría que te
+                    hiciesemos.</p>
+
+
+            </div>
+            <div class="mb-3 col-12 col-lg-3 col-sm-6">
+                <img class="img-responsive imagenes" src="img/corte.jpg" alt="imagen">
+            </div>
+            <div class="col-12 col-lg-3 col-sm-6">
+                <h3 class="titulos" > <a href="servicios.html"> Servicios</a> </h3>
+
+                <p class="textos text-justify"> Aquí podras encontrar todos nuestros servicios, desde cortes de pelo
+                    hasta peinados para novias.
+                    <br> El precio variara según la duración o promociones que tengamos.</p>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Footer -->
+    <footer class="footer mt-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-4 my-3">
+                    <h5>Contacto</h5>
+                    <div>
+                        <p> <b>Teléfono:</b> xxx-xxx-xxx
+                            <br> <b>Email:</b> email@gmail.com </p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-4 my-3">
+                    <h5>Dirección</h5>
+                    <p>Calle Fàbrica 48, 07013 Palma, Islas baleares
+                    </p>
+                    <p>
+                        Abierto de lunes a viernes: 09:00 - 20:00
+                        <br> Abierto sabados 09:00 - 18:00
+                    </p>
+
+                </div>
+
+
+                <div class="col-12 col-sm-4 my-3 ">
+                    <div class="text-center">
+                        <h5>Redes sociales</h5>
+                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i
+                                class="fa fa-facebook"></i></a>
+                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-auto ">
+                    <p>© Copyright 2018 Tercero Peluqueros </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

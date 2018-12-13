@@ -1,0 +1,24 @@
+{
+  "name": "pagina",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "alert": "^1.0.0",
+    "bootstrap": "^4.1.3",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
+    "multiple.js": "0.0.1",
+    "popper.js": "^1.14.6",
+    "sweet": "^0.1.1",
+    "sweetalert": "^2.1.2",
+    "three.js": "^0.77.1"
+  },
+  "devDependencies": {},
+  "description": ""
+}
